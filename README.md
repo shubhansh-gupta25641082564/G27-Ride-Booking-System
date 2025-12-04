@@ -39,11 +39,4 @@ Develop a real-time ride-hailing platform that connects riders with nearby drive
 #### ⚙️ Non-Functional
 - Low Latency: Driver location updates on the rider's map must be smooth (websocket implementation).  
 - Concurrency: System must handle multiple booking requests simultaneously without locking.  
-- Accuracy: Route optimization to ensure the shortest/fastest path is taken.  
-
-### 5. 🛠️ Technical Hints (Teams may choose their own stack)
-- Frontend: React Native or Flutter (Mobile Apps are essential here).  
-- Backend: Node.js (with Socket.io) or Go/Python.  
-- Database: MongoDB (GeoJSON support) or PostgreSQL (PostGIS) for efficient location queries.  
-- Maps API: Google Maps API, Mapbox, or OpenStreetMap (Leaflet) for rendering maps and calculating routes.  
-- Real-time Communication: WebSockets or Firebase Realtime Database for live tracking.
+- Accuracy: Route optimization to ensure the shortest/fastest path is taken.
